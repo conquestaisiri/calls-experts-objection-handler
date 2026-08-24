@@ -1,16 +1,26 @@
-# React + Vite
+# Calls Experts — Objection Handler
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Searchable insurance sales objection scripts: acknowledge → check → ask → reengage.
 
-Currently, two official plugins are available:
+## What it does
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Small Vite + React 19 app. Type an objection (e.g. "I need to think about it") and get a 4-step talk track. Built for cold call practice.
 
-## React Compiler
+## Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React 19.2, Vite 8, Tailwind 4.2, Base-UI 1.3, shadcn, TypeScript. Single page: \src/App.jsx\ (objections array) + \src/components/ui\.
 
-## Expanding the ESLint configuration
+## Run
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+\\\ash
+npm install
+npm run dev
+\\\
+
+## Status
+
+**Experiment** — template README replaced. Functional but small; good as a micro-demo of UI + data filtering.
+
+## Next
+
+Add screenshot/GIF and more objections data set.
